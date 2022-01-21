@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Room homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="Frontend Mentor Challenges are challenges to improve front-end coding skills by creating real projects."
+    />
+    <meta
+      name="keywords"
+      content="html, css, javascript, front-end, websites"
+    />
+    <meta name="author" content="Alexcarmonadev" />
+  </head>
+  <body>
+    <div class="overlay overlay--hidden"></div>
+
+    <div class="container">
+      <header class="header">
+        <div class="header-contain">
+          <nav class="nav">
+            <div class="nav-hamburger">
+              <img
+                src="assets/images/icon-hamburger.svg"
+                class="hamburger"
+                alt="Menu icon"
+              />
+
+              <ul id="nav-menu" class="nav-menu">
+                <li class="nav-menu__item">
+                  <a href="#" class="nav-menu__link" aria-label="Home link"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#" class="nav-menu__link" aria-label="Shop link"
+                    >Shop</a
+                  >
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#" class="nav-menu__link" aria-label="About link"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-menu__item">
+                  <a href="#" class="nav-menu__link" aria-label="Contact link"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <a href="#" class="logo" aria-label="Logo link">
+            <img
+              src="assets/images/logo.svg"
+              alt="Loopstudios's logo"
+              class="logo-img"
+            />
+          </a>
+
+          <article class="article">
+            <div class="article-images">
+              <picture class="img-main-box active">
+                <source
+                  media="(min-width: 525px)"
+                  srcset="assets/images/desktop-image-hero-1.jpg"
+                />
+                <img
+                  src="assets/images/mobile-image-hero-1.jpg"
+                  alt="Image of table and chairs"
+                  class="img-main"
+                />
+              </picture>
+
+              <picture class="img-main-box hidden">
+                <source
+                  media="(min-width: 525px)"
+                  srcset="assets/images/desktop-image-hero-2.jpg"
+                />
+                <img
+                  src="assets/images/mobile-image-hero-2.jpg"
+                  alt="Image of chairs"
+                  class="img-main"
+                />
+              </picture>
+
+              <picture class="img-main-box hidden">
+                <source
+                  media="(min-width: 525px)"
+                  srcset="assets/images/desktop-image-hero-3.jpg"
+                />
+                <img
+                  src="assets/images/mobile-image-hero-3.jpg"
+                  alt="Image of a chair"
+                  class="img-main"
+                />
+              </picture>
+
+              <div class="sliders">
+                <button class="slider__left">
+                  <img
+                    class="slider-arrow"
+                    src="assets/images/icon-angle-left.svg"
+                    alt="slider left arrow"
+                  />
+                </button>
+                <button class="slider__right">
+                  <img
+                    class="slider-arrow"
+                    src="assets/images/icon-angle-right.svg"
+                    alt="slider right arrow"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="article-texts active">
+              <h1 class="article__title">
+                Discover innovative ways to decorate
+              </h1>
+              <p class="article__text">
+                We provide unmatched quality, comfort, and style for property
+                owners across the country. Our experts combine form and function
+                in bringing your vision to life. Create a room in your own style
+                with our collection and make your property a reflection of you
+                and what you love.
+              </p>
+              <a href="#" class="article__link" aria-label="Article link"
+                >Shop now
+                <img src="assets/images/icon-arrow.svg" alt="Icon arrow"
+              /></a>
+            </div>
+
+            <div class="article-texts hidden">
+              <h1 class="article__title">
+                We are available all across the globe
+              </h1>
+              <p class="article__text">
+                With stores all over the world, it's easy for you to find
+                furniture for your home or place of business. Locally, we’re in
+                most major cities throughout the country. Find the branch
+                nearest you using our store locator. Any questions? Don't
+                hesitate to contact us today.
+              </p>
+              <a href="#" class="article__link" aria-label="Article link"
+                >Shop now
+                <img src="assets/images/icon-arrow.svg" alt="Icon arrow"
+              /></a>
+            </div>
+
+            <div class="article-texts hidden">
+              <h1 class="article__title">
+                Manufactured with the best materials
+              </h1>
+              <p class="article__text">
+                Our modern furniture store provide a high level of quality. Our
+                company has invested in advanced technology to ensure that every
+                product is made as perfect and as consistent as possible. With
+                three decades of experience in this industry, we understand what
+                customers want for their home and office.
+              </p>
+              <a href="#" class="article__link" aria-label="Article link"
+                >Shop now
+                <img src="assets/images/icon-arrow.svg" alt="Icon arrow"
+              /></a>
+            </div>
+          </article>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="main-container">
+          <img
+            src="assets/images/image-about-dark.jpg"
+            alt="Armchairs and table"
+            class="main__img main__img-one"
+          />
+          <div class="main__text">
+            <h2 class="main__text-title">About our furniture</h2>
+            <p class="main__text-text">
+              Our multifunctional collection blends design and function to suit
+              your individual taste. Make each room unique, or pick a cohesive
+              theme that best express your interests and what inspires you. Find
+              the furniture pieces you need, from traditional to contemporary
+              styles or anything in between. Product specialists are available
+              to help you create your dream space.
+            </p>
+          </div>
+          <img
+            src="assets/images/image-about-light.jpg"
+            alt="Chair"
+            class="main__img main__img-two"
+          />
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/alexcarmonadev" target="_blank"
+          >Alexcarmonadev</a
+        >.
+      </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
