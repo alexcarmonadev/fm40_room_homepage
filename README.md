@@ -1,13 +1,13 @@
 # Frontend Mentor - Room homepage solution
 
-:point_right: This is the [Room homepage](aqui va el reto de frontendmentor) challenge on Frontend Mentor.
+:point_right: This is the [Room homepage](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq) challenge on Frontend Mentor.
 
 ## Overview
 
 ### Links
 
-:heavy_check_mark: My `Solution` URL : [Frontend Mentor Solution](Aqui va tu solucion de frontendmentor) </br>
-:heavy_check_mark: My `Live` Site URL : [GitHub Pages](Aqui va tu solucion de github pages)
+:heavy_check_mark: My `Solution` URL : [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobile-first-1nvVFtnY2) </br>
+:heavy_check_mark: My `Live` Site URL : [GitHub Pages](https://alexcarmonadev.github.io/fm40_room_homepage/)
 
 Give a ⭐️ if you like this project!
 
